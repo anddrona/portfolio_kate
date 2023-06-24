@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url("/fonts/ofont.ru_Roboto_regular.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoBlack';
+    src: url("../fonts/ofont.ru_Roboto_black.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+header,
+main {
+    background-color: #050404;
+    font-family: 'RobotoRegular', sans-serif;
+}
+
+nav {
+    max-width: 1182px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 81px;
+    font-size: 22px;
+}
+
+nav section {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.logo {
+    padding: 13px 22px;
+    border: 4px solid #9965e3;
+    border-radius: 9px;
+    max-width: 110px;
+    height: 56px;
+    font-family: 'RobotoBlack', sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    margin-left: 92px;
+    margin-right: 108px;
+    display: inline-block;
+}
+
+.menu a {
+    margin: 0 20px;
+}
+
+.active {
+    color: #ffb822;
+}
+
+form {
+    position: relative;
+}
+
+form button {
+    position: absolute;
+    top: 13px;
+    right: 9px;
+    border: none;
+    background: transparent;
+}
+
+form button::before {
+    content: url("../image/Vector-search.svg");
+    display: block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.search input {
+    background-color: transparent;
+    border: 4px solid #9965e3;
+    box-shadow: none;
+    outline: 0;
+    width: 252px;
+    height: 58px;
+    box-sizing: border-box;
+    display: inline;
+    border-radius: 9px;
+    font-size: 22px;
+    padding: 15px 13px;
+}
+.search input::placeholder,
+.search input:focus {
+    font-size: 22px;
+    font-family: "RobotoBlack", sans-serif;
+    color: rgb(204, 204, 204);
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.kate {
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 86px;
+}
+.kate:before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../image/kate\ leo.jpg");
+    height: 783px;
+    max-width: 1182px;
+    border-top-right-radius: 155px;
+    border-bottom-left-radius: 170px;
+    margin-bottom: 87px;
+    opacity: 0.502;
+    display: block;
+    margin: 0 auto;
+}
+.kate section{
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 132px);
+    left: calc(50% - 400px);
+}
+.kate p:first-child {
+    font-size: 100px;
+    font-family: "RobotoBlack";
+    color: rgb(255, 184, 34);
+    text-transform: uppercase;
+}
+.kate p:last-child{
+    font-size: 40px;
+    font-family: "RobotoBlack";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
