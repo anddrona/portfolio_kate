@@ -93,7 +93,7 @@ form button::before {
     display: inline;
     border-radius: 9px;
     font-size: 22px;
-    padding: 15px 13px;
+    padding: 15px 48px 15px 13px;
 }
 .search input::placeholder,
 .search input:focus {
